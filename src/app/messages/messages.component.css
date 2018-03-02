@@ -1,0 +1,39 @@
+.messageBlock{
+    display: -webkit-inline-box;
+    width: 600px;
+}
+
+.messages{
+    position: relative;
+    /* right: 100px;
+    top:  60px; */
+    display: inline;
+}
+
+button {
+    margin-top: 20px;
+    font-family: Arial;
+    background-color: #eee;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer; cursor: hand;
+    position: relative;
+    left: 20px;
+  }
+  button:hover {
+    background-color: #cfd8dc;
+  }
+  button:disabled {
+    background-color: #eee;
+    color: #ccc;
+    cursor: auto;
+  }
+
+  label {
+    display: inline-block;
+    width: 3em;
+    margin: .5em 0;
+    color: #607D8B;
+    font-weight: bold;
+  }
